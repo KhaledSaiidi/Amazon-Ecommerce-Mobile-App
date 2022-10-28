@@ -1,0 +1,28 @@
+^C:\SRC\FLUTTERPROJECT\AMAZON\BUILD\WINDOWS\CMAKEFILES\5BD66E270B31E30EEF9A9D88B8BCA308\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\src\flutterproject\amazon FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\src\flutterproject\amazon\windows\flutter\ephemeral PROJECT_DIR=C:\src\flutterproject\amazon FLUTTER_TARGET=C:\src\flutterproject\amazon\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\src\flutterproject\amazon\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\FLUTTERPROJECT\AMAZON\BUILD\WINDOWS\CMAKEFILES\EF6F1E4561E03A4C63B1DBF5ABAE4A51\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\SRC\FLUTTERPROJECT\AMAZON\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/src/flutterproject/amazon/windows -BC:/src/flutterproject/amazon/build/windows --check-stamp-file C:/src/flutterproject/amazon/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

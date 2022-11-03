@@ -2,6 +2,10 @@ async
 2.14
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.9.0/
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.9.0/lib/
+badges
+2.12
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/badges-2.0.3/
+file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/badges-2.0.3/lib/
 boolean_selector
 2.12
 file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/
@@ -192,6 +196,6 @@ file:///C:/src/flutter/packages/flutter_web_plugins/
 file:///C:/src/flutter/packages/flutter_web_plugins/lib/
 amazon
 2.18
-file:///C:/src/flutterproject/Amazon-Ecommerce-Mobile-App-master/
-file:///C:/src/flutterproject/Amazon-Ecommerce-Mobile-App-master/lib/
+file:///C:/src/flutterproject/amazon/
+file:///C:/src/flutterproject/amazon/lib/
 2

@@ -1,6 +1,13 @@
 C:/src/flutterproject/amazon/build/windows/runner/Debug/data/icudtl.dat
 C:/src/flutterproject/amazon/build/windows/runner/Debug/flutter_windows.dll
 C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/amazon_in.png
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/appliances.jpeg
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/books.jpeg
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/electronics.jpeg
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/essentials.jpeg
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/fashion.jpeg
+C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/assets/images/mobiles.jpeg
 C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/FontManifest.json
 C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 C:/src/flutterproject/amazon/build/windows/runner/Debug/data/flutter_assets/kernel_blob.bin

@@ -1,5 +1,3 @@
-2022/11/03-03:56:39.658 2898 Creating DB C:\Users\khale\AppData\Local\Temp\flutter_tools.bbb6fa50\flutter_tools_chrome_device.11584430\Default\Asset Store\assets.db since it was missing.
-2022/11/03-03:56:39.668 2898 Reusing MANIFEST C:\Users\khale\AppData\Local\Temp\flutter_tools.bbb6fa50\flutter_tools_chrome_device.11584430\Default\Asset Store\assets.db/MANIFEST-000001
-2022/11/03-03:56:42.921 3008 Level-0 table #5: started
-2022/11/03-03:56:42.930 3008 Level-0 table #5: 357655 bytes OK
-2022/11/03-03:56:42.934 3008 Delete type=0 #3
+2022/11/03-05:16:30.918 2550 Reusing MANIFEST C:\Users\khale\AppData\Local\Temp\flutter_tools.c026ae9d\flutter_tools_chrome_device.606c17c4\Default\Asset Store\assets.db/MANIFEST-000001
+2022/11/03-05:16:30.919 2550 Recovering log #4
+2022/11/03-05:16:30.920 2550 Reusing old log C:\Users\khale\AppData\Local\Temp\flutter_tools.c026ae9d\flutter_tools_chrome_device.606c17c4\Default\Asset Store\assets.db/000004.log 

@@ -1,8 +1,8 @@
 import 'package:amazon/constants/global_variables.dart';
+import 'package:amazon/features/account/screens/account_screen.dart';
 import 'package:amazon/features/home/home_screen.dart';
-import 'package:amazon/providers/user_provider.dart';
+import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class BottomBar extends StatefulWidget {
   static const String routeName = '/actual-home';
@@ -19,6 +19,10 @@ class _BottomBarState extends State<BottomBar> {
 
   List<Widget> pages = [
     const HomeScreen(),
+    const AccountScreen(),
+    const Center(
+      child: Text('Cart Page'),
+    ),
   ];
 
   void updatePage(int page) {
@@ -29,8 +33,6 @@ class _BottomBarState extends State<BottomBar> {
 
   @override
   Widget build(BuildContext context) {
-    final userCartLen = context.watch<UserProvider>().user.cart.length;
-
     return Scaffold(
       body: pages[_page],
       bottomNavigationBar: BottomNavigationBar(
@@ -41,58 +43,61 @@ class _BottomBarState extends State<BottomBar> {
         iconSize: 28,
         onTap: updatePage,
         items: [
-          // HOME
+          //HOME
           BottomNavigationBarItem(
             icon: Container(
               width: bottomBarWidth,
               decoration: BoxDecoration(
-                border: Border(
-                  top: BorderSide(
-                    color: _page == 0
-                        ? GlobalVariables.selectedNavBarColor
-                        : GlobalVariables.backgroundColor,
-                    width: bottomBarBorderWidth,
-                  ),
-                ),
-              ),
+                  border: Border(
+                      top: BorderSide(
+                color: _page == 0
+                    ? GlobalVariables.selectedNavBarColor
+                    : GlobalVariables.backgroundColor,
+                width: bottomBarBorderWidth,
+              ))),
               child: const Icon(
                 Icons.home_outlined,
               ),
             ),
             label: '',
           ),
-          // ACCOUNT
+
+          //Account
           BottomNavigationBarItem(
             icon: Container(
               width: bottomBarWidth,
               decoration: BoxDecoration(
-                border: Border(
-                  top: BorderSide(
-                    color: _page == 1
-                        ? GlobalVariables.selectedNavBarColor
-                        : GlobalVariables.backgroundColor,
-                    width: bottomBarBorderWidth,
-                  ),
-                ),
-              ),
+                  border: Border(
+                      top: BorderSide(
+                color: _page == 1
+                    ? GlobalVariables.selectedNavBarColor
+                    : GlobalVariables.backgroundColor,
+                width: bottomBarBorderWidth,
+              ))),
               child: const Icon(
                 Icons.person_outline_outlined,
               ),
             ),
             label: '',
           ),
-          // CART
+          //cart
           BottomNavigationBarItem(
             icon: Container(
               width: bottomBarWidth,
               decoration: BoxDecoration(
-                border: Border(
-                  top: BorderSide(
-                    color: _page == 2
-                        ? GlobalVariables.selectedNavBarColor
-                        : GlobalVariables.backgroundColor,
-                    width: bottomBarBorderWidth,
-                  ),
+                  border: Border(
+                      top: BorderSide(
+                color: _page == 2
+                    ? GlobalVariables.selectedNavBarColor
+                    : GlobalVariables.backgroundColor,
+                width: bottomBarBorderWidth,
+              ))),
+              child: Badge(
+                elevation: 0,
+                badgeContent: const Text('2'),
+                badgeColor: Colors.white,
+                child: const Icon(
+                  Icons.shopping_cart_outlined,
                 ),
               ),
             ),

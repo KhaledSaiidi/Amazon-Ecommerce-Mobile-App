@@ -1,5 +1,4 @@
 import 'package:amazon/features/home/home_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'features/auth/screens/auth_screen.dart';

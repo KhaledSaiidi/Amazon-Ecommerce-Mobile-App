@@ -1,4 +1,5 @@
 import 'package:amazon/constants/global_variables.dart';
+import 'package:amazon/features/home/home_screen.dart';
 import 'package:amazon/providers/user_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -16,7 +17,9 @@ class _BottomBarState extends State<BottomBar> {
   double bottomBarWidth = 42;
   double bottomBarBorderWidth = 5;
 
-  List<Widget> pages = [];
+  List<Widget> pages = [
+    const HomeScreen(),
+  ];
 
   void updatePage(int page) {
     setState(() {
@@ -26,6 +29,8 @@ class _BottomBarState extends State<BottomBar> {
 
   @override
   Widget build(BuildContext context) {
+    final userCartLen = context.watch<UserProvider>().user.cart.length;
+
     return Scaffold(
       body: pages[_page],
       bottomNavigationBar: BottomNavigationBar(

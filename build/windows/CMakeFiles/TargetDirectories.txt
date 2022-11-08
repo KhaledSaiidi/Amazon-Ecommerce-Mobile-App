@@ -1,0 +1,10 @@
+C:/src/flutterproject/amazon/build/windows/CMakeFiles/INSTALL.dir
+C:/src/flutterproject/amazon/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/src/flutterproject/amazon/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/src/flutterproject/amazon/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/src/flutterproject/amazon/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/src/flutterproject/amazon/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/src/flutterproject/amazon/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/src/flutterproject/amazon/build/windows/runner/CMakeFiles/amazon.dir
+C:/src/flutterproject/amazon/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/src/flutterproject/amazon/build/windows/runner/CMakeFiles/ALL_BUILD.dir

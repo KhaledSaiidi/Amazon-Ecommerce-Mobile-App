@@ -13,12 +13,10 @@ class _OrdersState extends State<Orders> {
   // temporary list
 
   List list = [
-    {
-      'https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg',
-      'https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg',
-      'https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg',
-      'https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg',
-    }
+    'https://www.ubuy.tn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFVR0U5Y1pWbEwuX0FDX1NMMTUwMF8uanBn.jpg',
+    'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-model-unselect-gallery-2-202209_GEO_EMEA?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660753617539',
+    'https://images.samsung.com/fr/smartphones/galaxy-z-flip4/images/galaxy-z-flip4_highlights_kv.jpg',
+    'https://imageio.forbes.com/specials-images/imageserve/62b4570b678d2aa35f4a638c/0x0.jpg?format=jpg&crop=927,618,x138,y0,safe&width=1200',
   ];
 
   @override
@@ -62,12 +60,14 @@ class _OrdersState extends State<Orders> {
             right: 0,
           ),
           child: ListView.builder(
-              itemCount: list.length,
-              itemBuilder: (context, index) {
-                return SingleProduct(
-                  image: list[index],
-                );
-              }),
+            scrollDirection: Axis.horizontal,
+            itemCount: list.length,
+            itemBuilder: (context, index) {
+              return SingleProduct(
+                image: list[index],
+              );
+            },
+          ),
         ),
       ],
     );

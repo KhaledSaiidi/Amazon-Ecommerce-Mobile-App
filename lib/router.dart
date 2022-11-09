@@ -1,5 +1,5 @@
 import 'package:amazon/common/widgets/bottom_bar.dart';
-import 'package:amazon/features/home/home_screen.dart';
+import 'package:amazon/features/home/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'features/auth/screens/auth_screen.dart';

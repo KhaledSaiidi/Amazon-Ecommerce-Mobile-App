@@ -1,14 +1,12 @@
 import 'package:amazon/common/widgets/bottom_bar.dart';
 import 'package:amazon/constants/global_variables.dart';
 import 'package:amazon/features/admin/screens/admin_screen.dart';
+import 'package:amazon/features/auth/screens/auth_screen.dart';
 import 'package:amazon/features/auth/services/auth_service.dart';
-import 'package:amazon/features/home/screens/home_screen.dart';
 import 'package:amazon/providers/user_provider.dart';
 import 'package:amazon/router.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
-import 'features/auth/screens/auth_screen.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -31,9 +29,9 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+    authService.getUserData(context);
   }
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -50,6 +48,7 @@ class _MyAppState extends State<MyApp> {
             color: Colors.black,
           ),
         ),
+        useMaterial3: true, // can remove this line
       ),
       onGenerateRoute: (settings) => generateRoute(settings),
       home: Provider.of<UserProvider>(context).user.token.isNotEmpty

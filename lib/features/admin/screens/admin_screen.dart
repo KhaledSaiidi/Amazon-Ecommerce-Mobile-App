@@ -1,5 +1,6 @@
 import 'package:amazon/constants/global_variables.dart';
 import 'package:amazon/features/account/screens/account_screen.dart';
+import 'package:amazon/features/admin/screens/posts_screen.dart';
 import 'package:amazon/features/home/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -14,10 +15,9 @@ class _AdminScreenState extends State<AdminScreen> {
   int _page = 0;
   double bottomBarWidth = 42;
   double bottomBarBorderWidth = 5;
+
   List<Widget> pages = [
-    const Center(
-      child: Text('Posts Page'),
-    ),
+    const PostsScreen(),
     const Center(
       child: Text('Analytics Page'),
     ),
@@ -64,6 +64,7 @@ class _AdminScreenState extends State<AdminScreen> {
           ),
         ),
       ),
+      body: pages[_page],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _page,
         selectedItemColor: GlobalVariables.selectedNavBarColor,

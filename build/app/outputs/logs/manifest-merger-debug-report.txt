@@ -18,6 +18,8 @@ INJECTED from C:\src\flutterproject\amazon\android\app\src\main\AndroidManifest.
 INJECTED from C:\src\flutterproject\amazon\android\app\src\main\AndroidManifest.xml:1:1-34:12
 MERGED from C:\src\flutterproject\amazon\android\app\src\main\AndroidManifest.xml:1:1-34:12
 MERGED from [:shared_preferences_android] C:\src\flutterproject\amazon\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\src\flutterproject\amazon\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\khale\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\khale\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\khale\.gradle\caches\transforms-3\0e0e1a382b52c0572988a1c50e96d2f7\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -58,6 +60,10 @@ INJECTED from C:\src\flutterproject\amazon\android\app\src\main\AndroidManifest.
 INJECTED from C:\src\flutterproject\amazon\android\app\src\main\AndroidManifest.xml
 MERGED from [:shared_preferences_android] C:\src\flutterproject\amazon\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:shared_preferences_android] C:\src\flutterproject\amazon\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\src\flutterproject\amazon\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\src\flutterproject\amazon\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\khale\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\khale\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\khale\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -104,6 +110,22 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\src\flutterproject\amazon\android\app\src\debug\AndroidManifest.xml:7:5-66
 	android:name
 		ADDED from C:\src\flutterproject\amazon\android\app\src\debug\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+queries
+ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
+ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+	android:name
+		ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+data
+ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+	android:mimeType
+		ADDED from [:file_picker] C:\src\flutterproject\amazon\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:19-41
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\khale\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required

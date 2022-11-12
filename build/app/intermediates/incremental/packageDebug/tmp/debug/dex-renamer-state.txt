@@ -1,4 +1,4 @@
-#Wed Nov 09 22:35:04 WAT 2022
+#Sat Nov 12 09:53:51 WAT 2022
 base.0=C\:\\src\\flutterproject\\amazon\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
